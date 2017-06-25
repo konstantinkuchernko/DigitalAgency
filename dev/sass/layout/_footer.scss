@@ -1,0 +1,38 @@
+/*
+Footer
+*/
+
+.footer{
+    font-family: $font-PTSans;
+    font-size: 18px;
+    color: #fff;
+    background-color: $violet-color;
+
+    &__social-links{
+	    a{
+	        display: inline-block;
+	        width: 33px;
+	        height: 33px;
+	        margin: 5px;
+	        transition: opacity .1s ease-in;
+	        &:hover {
+	            opacity: .5;
+	        }
+	    }
+	 }
+
+	&__copyright a{
+	    font-weight: 700;
+	    text-decoration: none;
+	    color: inherit;
+	}
+    
+    .row-cont {
+        display: flex;
+        flex-direction: row;
+        height: 125px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

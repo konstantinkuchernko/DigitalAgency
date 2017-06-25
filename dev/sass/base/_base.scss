@@ -1,0 +1,34 @@
+/* Base */
+
+body,
+div,
+ul,
+li,
+nav,
+p,
+a,
+img,
+input,
+span,
+form,
+textarea{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    color: $main-color;
+    background-color: #ebebeb;
+}
+
+
+.row {
+  padding: 50px 10px 50px 10px;
+}
+
+.row-cont{
+    max-width: 1170px;
+    margin: auto;
+}
+

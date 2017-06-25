@@ -1,0 +1,72 @@
+/*
+HEADER
+*/
+
+.header {
+	background: $violet-color url("../img/bg-header.jpg") 50% no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	color: #fff;
+	font-family: $font-Proxima-Nova;
+
+	&__menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			text-transform: uppercase;
+			font-size: 24px;
+			font-weight: 600;
+			margin-left: 25px;
+			cursor: pointer;
+			transition: opacity .1s ease-in;
+			&:hover {
+			  opacity: .4;
+			}
+		}
+	}
+
+	&__title {
+		font-size: 72px;
+		font-weight: 700;
+		color: #fefefb;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 23%;
+		margin-bottom: 18px;
+	}
+
+	&__subtitle {
+		color: #fefdfd;
+		font-family: $font-PTSans;
+		font-size: 30px;
+		font-style: italic;
+		text-align: center;
+		max-width: 670px;
+		margin: auto;
+	}
+
+	&__menu--mini {
+		display: none;
+	}
+ 
+	.row-cont {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
